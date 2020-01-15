@@ -471,7 +471,7 @@ groups.each{ group, files ->
 	// EPISODE MODE
 	if ((group.tvs || group.anime) && !group.mov) {
 		// choose series / anime
-		def dest = group.tvs ? rename(file: files, format: seriesFormat, db: 'TheTVDB') : rename(file: files, format: animeFormat, db: 'AniDB')
+		def dest = group.tvs ? rename(file: files, format: seriesFormat, db: 'TheMovieDB::TV') : rename(file: files, format: animeFormat, db: 'AniDB')
 
 		if (dest != null) {
 			destinationFiles += dest
