@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Paths
-SCRIPT="/mnt/HDD/Documents/filebotscripts/amc2.groovy"
+SCRIPT="/mnt/HDD/Documents/filebotscripts/amc.groovy"
 OUTPUT="/mnt/HDD/Nedlastninger"
 
 # Formats
